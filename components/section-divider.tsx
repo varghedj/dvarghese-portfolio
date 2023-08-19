@@ -4,6 +4,7 @@ import React from 'react'
 import { delay, motion } from 'framer-motion'
 
 export default function SectionDivider() {
+  
   return (
     <motion.div className=' flex items-center justify-center
     filter grayscale
