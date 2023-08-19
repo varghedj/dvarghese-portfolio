@@ -66,7 +66,7 @@ export default function Intro() {
       
       <motion.div 
         className='flex flex-col sm:flex-row
-        items-center justify-center gap-2
+        items-center justify-center gap-5
         px-4 text-lg font-medium'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0}}
@@ -97,24 +97,39 @@ export default function Intro() {
           outline-none
           focus:scale-110 hover:scale-110 
           active:scale-105
-          transition
-        '> 
-          Download My Resume
+          transition cursor-pointer
+          border border-black/20'
+          href='/resume.pdf'
+          download={true}
+          > 
+          Download Resume
           <HiDownload className='opacity-60 
-          group-hover:animate-download-icon transition'/>
+          group-hover:animate-download-icon transition
+          ' />
         </a>
         <a
           className='bg-white text-gray-700
           p-4
           flex items-center 
-          gap-2 rounded-full'> 
+          gap-2 rounded-full
+          focus:scale-[1.15] hover:scale-[1.15] 
+          active:scale-105
+          transition cursor-pointer
+          border border-black/20'
+          href='https://www.linkedin.com/in/dylan-varghese' target='_blank'> 
           <BsLinkedin />
         </a>
         <a
           className='bg-white text-gray-700
           p-4 text-[1.35rem]
           flex items-center 
-          gap-2 rounded-full'> 
+          gap-2 rounded-full
+          focus:scale-[1.15] hover:scale-[1.15] 
+          active:scale-105
+          transition cursor-pointer
+          border border-black/20'
+          href='https://www.github.com/varghedj' target='_blank'
+          > 
           <FaGithubSquare />
         </a>
       </motion.div>
