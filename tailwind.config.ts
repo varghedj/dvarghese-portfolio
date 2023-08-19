@@ -13,6 +13,18 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+
+      keyframes: {
+        download: {
+          '0%': { transform: 'translateY(-25%)' },
+          '50%': { transform: 'translateY(10%)' },
+          '100%': { transform: 'translatey(0%)'},
+        },
+      },
+
+      animation: {
+        'download-icon': 'download .5s linear'
+      },
     },
   },
   plugins: [],
