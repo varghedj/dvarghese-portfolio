@@ -30,7 +30,7 @@ export default function RootLayout({
 
       {/*Left Side Bubble*/}
         <div className=
-          'bg-[#dfd6fb] absolute -z-10 top-[-1rem] left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem]  sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]'>
+          'bg-[#fffcfc] absolute -z-10 top-[-1rem] left-[-35rem] h-[100%] w-[50rem] rounded-full blur-[10rem]  sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]'>
         </div>
 
         <Header />
