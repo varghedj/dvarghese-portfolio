@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/*Right Side Bubble*/}
-      <body className={`{inter.className} bg-gray-50 text-gray-950 relative h-[10000px]`}>
+      <body className={`{inter.className} bg-gray-50 text-gray-950 relative h-[10000px] pt-28 sm:pt-36`}>
       {/*Right Side Bubble*/}
         <div className=
           'bg-[#fbe2e3] absolute -z-10 top-[-6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]'>
