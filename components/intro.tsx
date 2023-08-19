@@ -50,8 +50,9 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
-      <motion.p
-        className='mb-10 mt-4 px-4 text 2xl font-medium !leading-[1.5] sm:text-4xl'
+      <motion.h1
+        className='mb-10 mt-4 px-4
+        text 2xl font-medium !leading-[1.5] sm:text-3xl'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -62,7 +63,7 @@ export default function Intro() {
         <span className='underline'>detail-oriented thinking</span>, {" "}
         <span className='underline'>agility</span>, and {" "} 
         <span className='underline'>teamwork</span>{" "} in order to deliver innovative software solutions.
-      </motion.p>
+      </motion.h1>
       
       <motion.div 
         className='flex flex-col sm:flex-row
