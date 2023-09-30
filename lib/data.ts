@@ -1,10 +1,12 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { PiRobot } from "react-icons/pi"
+import { MdComputer } from "react-icons/md"
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import portfolioImg from '@/public/dv-portfolio-screenshot.png'
 
 export const links = [
   {
@@ -35,51 +37,59 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Robotics Intern",
+    location: "Vienna, VA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Lead Programming efforts for Advanced Physical Therapy and Rehabilitation Center's robotics wing.",
+    icon: React.createElement(PiRobot),
+    date: "2020-2021",
+  },
+  {
+    title: "Graduated From JMU",
+    location: "Harrisonburg, VA",
+    description:
+      "Graduated with a BS in Engineering",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Annandale, VA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Collaboration with Capwell Energy Services to launch a single-page application to guide potential clients and investors to their business",
+    icon: React.createElement(MdComputer),
+    date: "2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "System Administrator",
+    location: "Washington, DC",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm now a system administrator for CGI Federal's FBI account team. I work with RHEL Linux, IBM AIX, Microsoft Windows, and Windows Server. I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Next.js Portfolio",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I made this website to gain experience with next JS while also learning about and utilizing more complex Javascript concepts such as Props, States, and Effects.",
+    tags: ["React", "Next.js", "Tailwind", "Framer"],
+    imageUrl: portfolioImg,
   },
   {
-    title: "rmtDev",
+    title: "Capwell.org",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "A commisisoned web-page for Capwell Energy Services. Although simple, this single page web application has put the founders of Capwell in touch with several different clients such as the Pennsylvania Department of Environmental Protection.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "SkyPrecision",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "My Engineering Capstone Project. Skyprecision focused on delivering a cost-effective and less labor intensive precision agriculture solution using drone carried LIDAR imaging to scan for different metrics such as Color, Temperature, and Soil Moisture",
+    tags: ["React", "SQL", "Styled Components", "Python", "Firebase"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -94,14 +104,19 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  'AWS',
+  'Firebase',
   "Python",
   "Django",
   "Framer Motion",
+  "AIX",
+  "PowerShell",
+  "RHEL",
+  "TCP",
+  "UDP",
+  "IP",
+  "HTTP",
+  "DNS",
+  "NAT",
+  "Jira",
 ] as const;

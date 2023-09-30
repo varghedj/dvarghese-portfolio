@@ -13,7 +13,7 @@ export default function Intro() {
   return (
     <section id='home' ref={ref}
     className='scroll-mt-[9999rem]
-    mb-28 max-w-[50rem] text-center sm:mb-0'>
+    mb-28 max-w-[70rem] text-center sm:mb-0'>
       <div className='flex items-center justify-center'>
         <div className='relative'>
           {/*Note /public folder is searched for images by default*/}

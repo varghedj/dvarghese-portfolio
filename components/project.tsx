@@ -33,7 +33,7 @@ export default function Project({
     >
       <section
       className='
-      bg-gray-100 max-w-[42rem] 
+      bg-gray-100 max-w-[50rem] 
       border border-black/5
       overflow-hidden sm:pr-8
       relative sm:h-[20rem]
